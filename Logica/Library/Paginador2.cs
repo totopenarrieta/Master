@@ -42,37 +42,6 @@
 //            }
 //            _label.Text = $"Paginas 1/ {pageCount}";
 //        }
-//        public int primero()
-//        {
-//            numPagi = 1;
-//            _label.Text = $"Paginas {numPagi}/{pageCount}";
-//            return numPagi;
-//        }
-//        public int anterior()
-//        {
-//            if (numPagi > 1)
-//            {
-//                numPagi -= 1;
-//                _label.Text = $"Pagina { numPagi}/{pageCount}";
-//            }
-//            return numPagi;
-//        }
-//        public int siguiente()
-//        {
-//            if (numPagi == pageCount)
-//                numPagi -= 1;
-//            if (numPagi < pageCount)
-//            {
-//                numPagi += 1;
-//                _label.Text = $"Paginas { numPagi}/{pageCount}";
-//            }
-//            return numPagi;
-//        }
-//        public int ultimo()
-//        {
-//            numPagi = pageCount;
-//            _label.Text = $"Paginas { numPagi}/{pageCount}";
-//            return numPagi;
-//        }
+
 //    }
 //}
