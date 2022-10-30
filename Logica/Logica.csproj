@@ -49,7 +49,6 @@
     <Compile Include="Library\Librarys.cs" />
     <Compile Include="LPersonalGeneral.cs" />
     <Compile Include="Library\Paginador.cs" />
-    <Compile Include="Library\Paginador2.cs" />
     <Compile Include="Library\TextBoxEvent.cs" />
     <Compile Include="Library\Uploadimage.cs" />
     <Compile Include="LPersonal.cs" />
