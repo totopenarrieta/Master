@@ -52,7 +52,6 @@
     <Compile Include="Library\TextBoxEvent.cs" />
     <Compile Include="Library\Uploadimage.cs" />
     <Compile Include="LPersonal.cs" />
-    <Compile Include="LPersonal2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
