@@ -11,14 +11,14 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        //protected override void Dispose(bool disposing)
+        //{
+        //    if (disposing && (components != null))
+        //    {
+        //        components.Dispose();
+        //    }
+        //    base.Dispose(disposing);
+        //}
 
         #region Windows Form Designer generated code
 
@@ -42,7 +42,7 @@
             this.labelPaginas = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            this.SuspendLayout();
+            //this.SuspendLayout();
             // 
             // dataGridView2
             // 
@@ -216,27 +216,27 @@
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1089, 730);
-            this.Controls.Add(this.labelPaginas);
-            this.Controls.Add(this.buttonRegresar);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.buttonSiguiente2);
-            this.Controls.Add(this.buttonUltimo2);
-            this.Controls.Add(this.buttonPrimero2);
-            this.Controls.Add(this.buttonAnterior2);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBoxBuscar2);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.dataGridView2);
-            this.Name = "Form3";
-            this.Text = "Reporte de Personal";
-            this.Load += new System.EventHandler(this.Form3_Load);
+            //this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            //this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            //this.ClientSize = new System.Drawing.Size(1089, 730);
+            //this.Controls.Add(this.labelPaginas);
+            //this.Controls.Add(this.buttonRegresar);
+            //this.Controls.Add(this.numericUpDown1);
+            //this.Controls.Add(this.buttonSiguiente2);
+            //this.Controls.Add(this.buttonUltimo2);
+            //this.Controls.Add(this.buttonPrimero2);
+            //this.Controls.Add(this.buttonAnterior2);
+            //this.Controls.Add(this.label17);
+            //this.Controls.Add(this.textBoxBuscar2);
+            //this.Controls.Add(this.label16);
+            //this.Controls.Add(this.dataGridView2);
+            //this.Name = "Form3";
+            //this.Text = "Reporte de Personal";
+            //this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            //this.ResumeLayout(false);
+            //this.PerformLayout();
 
         }
 

@@ -23,11 +23,11 @@ namespace Sistema_de_Archivo_v_2._0
             Form2 form2 = new Form2();
             form2.Show();
         }
-        private void reporteToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3 form3 = new Form3();
-            form3.Show();
-        }
+        //private void reporteToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    Form3 form3 = new Form3();
+        //    form3.Show();
+        //}
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();

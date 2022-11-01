@@ -9,35 +9,35 @@ using System.Windows.Forms;
 
 namespace Logica
 {
-    public class LPersonalGeneral : Librarys
-    {
-        private int _reg_por_pagina = 24, _num_pagina = 1;
-        private List<File_Personal> query;
-        public List<File_Personal> InitialData()
-        {
-            query = new List<File_Personal>();
-            int inicio = (_num_pagina - 1) * _reg_por_pagina;
-            query = _File_Personal.Skip(inicio).Take(_reg_por_pagina).ToList();
-            return query;
-        }
+    //public class LPersonalGeneral : Librarys
+    //{
+    //    private int _reg_por_pagina = 24, _num_pagina = 1;
+    //    private List<File_Personal> query;
+    //    public List<File_Personal> InitialData()
+    //    {
+    //        query = new List<File_Personal>();
+    //        int inicio = (_num_pagina - 1) * _reg_por_pagina;
+    //        query = _File_Personal.Skip(inicio).Take(_reg_por_pagina).ToList();
+    //        return query;
+    //    }
 
-        public List<File_Personal> SearchPersona(string campo)
-        {
-            query = new List<File_Personal>();
-            int inicio = (_num_pagina - 1) * _reg_por_pagina;
-            if (campo.Equals(""))
-            {
-                query = _File_Personal.ToList();
-            }
-            else
-            {
-                query = _File_Personal.Where(c => c.CI.StartsWith(campo) || c.Ap_Paterno.StartsWith(campo) || c.Ap_Materno.StartsWith(campo) || c.Nombres.StartsWith(campo)
-                    || c.Estado.StartsWith(campo) || c.Cargo.StartsWith(campo) || c.Administracion.StartsWith(campo)).ToList();
-            }
-            return query;
+    //    public List<File_Personal> SearchPersona(string campo)
+    //    {
+    //        query = new List<File_Personal>();
+    //        int inicio = (_num_pagina - 1) * _reg_por_pagina;
+    //        if (campo.Equals(""))
+    //        {
+    //            query = _File_Personal.ToList();
+    //        }
+    //        else
+    //        {
+    //            query = _File_Personal.Where(c => c.CI.StartsWith(campo) || c.Ap_Paterno.StartsWith(campo) || c.Ap_Materno.StartsWith(campo) || c.Nombres.StartsWith(campo)
+    //                || c.Estado.StartsWith(campo) || c.Cargo.StartsWith(campo) || c.Administracion.StartsWith(campo)).ToList();
+    //        }
+    //        return query;
 
-        }
-    }
+    //    }
+    //}
 
     public class Paginador2<T>
     {
