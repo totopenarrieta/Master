@@ -31,7 +31,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.datosDePersonalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ingresoModificaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.datosDePréstamoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ingresoModificaciónToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,8 +60,7 @@
             // datosDePersonalToolStripMenuItem
             // 
             this.datosDePersonalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ingresoModificaciónToolStripMenuItem,
-            this.reporteToolStripMenuItem});
+            this.ingresoModificaciónToolStripMenuItem});
             this.datosDePersonalToolStripMenuItem.Name = "datosDePersonalToolStripMenuItem";
             this.datosDePersonalToolStripMenuItem.Size = new System.Drawing.Size(113, 20);
             this.datosDePersonalToolStripMenuItem.Text = "Datos de Personal";
@@ -73,13 +71,6 @@
             this.ingresoModificaciónToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.ingresoModificaciónToolStripMenuItem.Text = "Ingreso / Modificación";
             this.ingresoModificaciónToolStripMenuItem.Click += new System.EventHandler(this.ingresoModificaciónToolStripMenuItem_Click);
-            // 
-            // reporteToolStripMenuItem
-            // 
-            this.reporteToolStripMenuItem.Name = "reporteToolStripMenuItem";
-            this.reporteToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
-            this.reporteToolStripMenuItem.Text = "Reporte";
-            //this.reporteToolStripMenuItem.Click += new System.EventHandler(this.reporteToolStripMenuItem_Click);
             // 
             // datosDePréstamoToolStripMenuItem
             // 
@@ -181,7 +172,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem datosDePersonalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ingresoModificaciónToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reporteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem datosDePréstamoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ingresoModificaciónToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem reporteToolStripMenuItem1;
