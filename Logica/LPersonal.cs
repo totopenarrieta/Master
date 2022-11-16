@@ -307,8 +307,6 @@ namespace Logica
             listTextBox[10].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[10].Value);
             listTextBox[11].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[11].Value);
             listTextBox[12].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[12].Value);
-            listTextBox[13].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[13].Value);
-            listTextBox[14].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[14].Value);
             try
             {
                 byte[] arrayImage = (byte[])_dataGridView.CurrentRow.Cells[15].Value;
@@ -405,8 +403,8 @@ namespace Logica
             listTextBox[10].Text = "";
             listTextBox[11].Text = "";
             listTextBox[12].Text = "";
-            listTextBox[13].Text = "";
-            listTextBox[14].Text = "";
+            //listTextBox[13].Text = "";
+            //listTextBox[14].Text = "";
             listFile_Personal = _File_Personal.ToList();
             if (0 < listFile_Personal.Count)
             {

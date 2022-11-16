@@ -27,8 +27,6 @@ namespace Sistema_de_Archivo_v_2._0
             listTextBox.Add(textBoxNombres);
             listTextBox.Add(textBoxNumeroItem);
             listTextBox.Add(textBoxEstado);
-            listTextBox.Add(textBoxFechaNac);
-            listTextBox.Add(textBoxFechaIng);
             listTextBox.Add(textBoxCargo);
             listTextBox.Add(textBoxAdministracion);
             listTextBox.Add(textBoxFileUrl);
@@ -189,18 +187,6 @@ namespace Sistema_de_Archivo_v_2._0
         {
             persona.textBoxEvent.numberKeyPress(e);
         }
-        private void textBoxFechaNac_TextChanged(object sender, EventArgs e)
-        {
-            if (textBoxFechaNac.Text.Equals(""))
-            {
-                labelFecNacimiento.ForeColor = Color.LightSlateGray;
-            }
-            else
-            {
-                labelFecNacimiento.ForeColor = Color.DarkBlue;
-                labelFecNacimiento.Text = "Fecha de Nacimiento:";
-            }
-        }
         private void textBoxFechaNac_KeyPress(object sender, KeyPressEventArgs e)
         {
             persona.textBoxEvent.textKeyPress(e);
@@ -215,22 +201,6 @@ namespace Sistema_de_Archivo_v_2._0
             {
                 labelFecNacimiento.ForeColor = Color.DarkBlue;
                 labelFecNacimiento.Text = "Fecha de Nacimiento:";
-            }
-        }
-        //private void dateTimePickerFechaNac_KeyPress(object sender, KeyPressEventArgs e)
-        //{
-        //    persona.dateTimePickerEvent.datetimeKeyPress(e);
-        //}
-        private void textBoxFechaIng_TextChanged(object sender, EventArgs e)
-        {
-            if (textBoxFechaIng.Text.Equals(""))
-            {
-                labelFecIngreso.ForeColor = Color.LightSlateGray;
-            }
-            else
-            {
-                labelFecIngreso.ForeColor = Color.DarkBlue;
-                labelFecIngreso.Text = "Fecha de Ingreso:";
             }
         }
         private void textBoxFechaIng_KeyPress(object sender, KeyPressEventArgs e)
