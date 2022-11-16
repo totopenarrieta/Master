@@ -302,9 +302,7 @@ namespace Logica
             listTextBox[5].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[5].Value);
             listTextBox[6].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[6].Value);
             listTextBox[7].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[7].Value);
-            listTextBox[8].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[8].Value);
             listDateTimePicker[0].Value = (DateTime)_dataGridView.CurrentRow.Cells[8].Value;
-            listTextBox[9].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[9].Value);
             listDateTimePicker[1].Value = (DateTime)_dataGridView.CurrentRow.Cells[9].Value;
             listTextBox[10].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[10].Value);
             listTextBox[11].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[11].Value);

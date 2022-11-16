@@ -30,7 +30,7 @@ namespace Sistema_de_Archivo_v_2._0
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label17 = new System.Windows.Forms.Label();
@@ -51,8 +51,6 @@ namespace Sistema_de_Archivo_v_2._0
             this.textBoxCargo = new System.Windows.Forms.TextBox();
             this.labelCargo = new System.Windows.Forms.Label();
             this.labelFecNacimiento = new System.Windows.Forms.Label();
-            this.textBoxFechaIng = new System.Windows.Forms.TextBox();
-            this.textBoxFechaNac = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBoxEstado = new System.Windows.Forms.TextBox();
             this.checkBoxPerMilitar = new System.Windows.Forms.CheckBox();
@@ -310,25 +308,6 @@ namespace Sistema_de_Archivo_v_2._0
             this.labelFecNacimiento.Size = new System.Drawing.Size(163, 20);
             this.labelFecNacimiento.TabIndex = 14;
             this.labelFecNacimiento.Text = "Fecha de Nacimiento:";
-            // 
-            // textBoxFechaIng
-            // 
-            this.textBoxFechaIng.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxFechaIng.Location = new System.Drawing.Point(880, 703);
-            this.textBoxFechaIng.Name = "textBoxFechaIng";
-            this.textBoxFechaIng.Size = new System.Drawing.Size(179, 20);
-            this.textBoxFechaIng.TabIndex = 14;
-            this.textBoxFechaIng.TextChanged += new System.EventHandler(this.textBoxFechaIng_TextChanged);
-            this.textBoxFechaIng.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxFechaIng_KeyPress);
-            // 
-            // textBoxFechaNac
-            // 
-            this.textBoxFechaNac.Location = new System.Drawing.Point(69, 703);
-            this.textBoxFechaNac.Name = "textBoxFechaNac";
-            this.textBoxFechaNac.Size = new System.Drawing.Size(179, 20);
-            this.textBoxFechaNac.TabIndex = 13;
-            this.textBoxFechaNac.TextChanged += new System.EventHandler(this.textBoxFechaNac_TextChanged);
-            this.textBoxFechaNac.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxFechaNac_KeyPress);
             // 
             // groupBox2
             // 
@@ -625,14 +604,14 @@ namespace Sistema_de_Archivo_v_2._0
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(3, 39);
             this.dataGridView1.Name = "dataGridView1";
@@ -842,13 +821,11 @@ namespace Sistema_de_Archivo_v_2._0
             this.Controls.Add(this.buttonAnterior);
             this.Controls.Add(this.buttonPrimero);
             this.Controls.Add(this.buttonRegresar);
-            this.Controls.Add(this.textBoxFechaIng);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.buttonEliminar);
             this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.buttonAgregar);
-            this.Controls.Add(this.textBoxFechaNac);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -889,13 +866,11 @@ namespace Sistema_de_Archivo_v_2._0
         private System.Windows.Forms.Label labelContenido;
         private System.Windows.Forms.TextBox textBoxAdministracion;
         private System.Windows.Forms.Label labelAdministracion;
-        private System.Windows.Forms.TextBox textBoxFechaIng;
         private System.Windows.Forms.Label labelFecIngreso;
         private System.Windows.Forms.TextBox textBoxFileUrl;
         private System.Windows.Forms.Label labelFileUrl;
         private System.Windows.Forms.TextBox textBoxCargo;
         private System.Windows.Forms.Label labelCargo;
-        private System.Windows.Forms.TextBox textBoxFechaNac;
         private System.Windows.Forms.Label labelFecNacimiento;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.CheckBox checkBoxPerMilitar;
