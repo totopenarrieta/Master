@@ -33,7 +33,6 @@
             this.ingresoModificaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.datosDePréstamoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ingresoModificaciónToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.reporteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -75,8 +74,7 @@
             // datosDePréstamoToolStripMenuItem
             // 
             this.datosDePréstamoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ingresoModificaciónToolStripMenuItem1,
-            this.reporteToolStripMenuItem1});
+            this.ingresoModificaciónToolStripMenuItem1});
             this.datosDePréstamoToolStripMenuItem.Name = "datosDePréstamoToolStripMenuItem";
             this.datosDePréstamoToolStripMenuItem.Size = new System.Drawing.Size(118, 20);
             this.datosDePréstamoToolStripMenuItem.Text = "Datos de Préstamo";
@@ -86,12 +84,6 @@
             this.ingresoModificaciónToolStripMenuItem1.Name = "ingresoModificaciónToolStripMenuItem1";
             this.ingresoModificaciónToolStripMenuItem1.Size = new System.Drawing.Size(194, 22);
             this.ingresoModificaciónToolStripMenuItem1.Text = "Ingreso / Modificación";
-            // 
-            // reporteToolStripMenuItem1
-            // 
-            this.reporteToolStripMenuItem1.Name = "reporteToolStripMenuItem1";
-            this.reporteToolStripMenuItem1.Size = new System.Drawing.Size(194, 22);
-            this.reporteToolStripMenuItem1.Text = "Reporte";
             // 
             // salirToolStripMenuItem
             // 
@@ -174,7 +166,6 @@
         private System.Windows.Forms.ToolStripMenuItem ingresoModificaciónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem datosDePréstamoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ingresoModificaciónToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem reporteToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
