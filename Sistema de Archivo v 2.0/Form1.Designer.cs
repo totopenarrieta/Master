@@ -84,6 +84,7 @@
             this.ingresoModificaciónToolStripMenuItem1.Name = "ingresoModificaciónToolStripMenuItem1";
             this.ingresoModificaciónToolStripMenuItem1.Size = new System.Drawing.Size(194, 22);
             this.ingresoModificaciónToolStripMenuItem1.Text = "Ingreso / Modificación";
+            this.ingresoModificaciónToolStripMenuItem1.Click += new System.EventHandler(this.ingresoModificaciónToolStripMenuItem1_Click);
             // 
             // salirToolStripMenuItem
             // 
